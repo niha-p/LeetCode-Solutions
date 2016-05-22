@@ -4,12 +4,14 @@ https://leetcode.com/problems/remove-duplicates-from-sorted-list/
 
 /**
  * Definition for singly-linked list.
- * public class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode(int x) { val = x; }
- * }
- */
+ */ 
+ public class ListNode {
+      int val;
+      ListNode next;
+      ListNode(int x) { val = x; }
+  }
+ 
+/* SOLUTION */ 
 public class DeleteDuplicates {
     public ListNode deleteDuplicates(ListNode head) {
         if(head==null)
