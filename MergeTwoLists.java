@@ -4,12 +4,14 @@ https://leetcode.com/problems/merge-two-sorted-lists/
 
 /**
  * Definition for singly-linked list.
- * public class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode(int x) { val = x; }
- * }
- */
+ */ 
+ public class ListNode {
+      int val;
+      ListNode next;
+      ListNode(int x) { val = x; }
+  }
+ 
+/* SOLUTION */ 
 public class MergeTwoLists {
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
         ListNode first=new ListNode(-99);
